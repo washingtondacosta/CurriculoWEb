@@ -1,0 +1,115 @@
+*{
+  font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.divslider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../imgs/bgslider.jpg);
+}
+
+section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+
+section#contato{
+    padding-top: 25px;
+    min-height: 80vh;
+}
+
+section#inicio{
+    padding-top: 50px;
+    min-height: 30vh;
+}
+
+section#formacao{
+    padding-top: 50px;
+    min-height: 30vh;
+}
+
+section#conhecimentos{
+    padding-top: 50px;
+    min-height: 50vh;
+}
+
+section#outrasatividades{
+    padding-top: 50px;
+    min-height: 50vh;
+}
+
+.centro{
+    text-align: center;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f7f7f7;
+    color: black;
+}
+
+img.grayscale{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");/* Firefox 3.5+ */
+    
+    filter: gray; /* IE6-9*/
+    -webkit-filter:grayscale(100%); /* Chrome 19 & Safari 6+ */
+}
+
+img.grayscale:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+
+.div_colorida{
+    background: url(../imgs/bgslider.jpg);
+    color: white;
+}
+
+.div_colorida_small{
+    color: white;
+}
+
+.servicos_item *{
+    text-align: center;
+}
+
+.servicos_item h4{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.instituicao_btn{
+    margin-top: 25px;
+}
+
+.cursos_item{
+    background: white;
+    color: black;
+}
+
+.cursos_item h4{
+    text-align: center;
+    padding: 15px;
+}
+
+.cursos_row{
+    margin-bottom: 20px;
+}
+
+
+.label{
+    font-size: 14pt;
+}
+
